@@ -16,7 +16,7 @@ You will need brew to run the script properly (homebrew is availible here "https
   - Windows 10*
   - Windows 7
 
-* if you are planning to attempt windows compatibilty i recommend starting with the library "spacy" as it has known issues with this program. when running on windows
+* if you are planning to attempt windows compatibilty i recommend starting with the library "spacy" as it has known issues with this program when running on windows.
 
 # Data
 
