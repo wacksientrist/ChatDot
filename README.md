@@ -3,7 +3,7 @@ A simple chatbot AI
 
 # Setup
 Currently setup is confusing so I simplified it with a Shell script.
-You will need brew to run the script properly (homebrew is availible here "https://brew.sh/")
+run this command "sh Setup.sh"
 
 # Versions and platforms
   Supported Platforms
@@ -30,4 +30,4 @@ where each conversation is a new line seperated by "&&"
 
 # Features
 
-the program can be interacted with via speech or text.
+the program can be interacted with text only.
