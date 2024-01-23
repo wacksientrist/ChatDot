@@ -2,7 +2,8 @@ import speech_recognition as sr
 import chatterbot
 import os
 
-
+Listener = sr.Recognizer()
+mic = sr.Microphone()
 Bot = chatterbot.ChatBot("ChatDot")
 Bot.initialize()
 
@@ -37,8 +38,6 @@ print("Starting...")
 mode = input("Would you like text or audio input? type '1' for audio and '2' for text: \t")
 
 if mode == "1":
-    Listener = sr.Recognizer()
-    mic = sr.Microphone()
 
     while True:
         Query = recognize(Listener, mic)["transcription"]
@@ -58,4 +57,3 @@ if mode == "2":
 
         print(Query)
         print(Response)
-        
