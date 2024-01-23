@@ -4,6 +4,7 @@ import os
 
 
 Bot = chatterbot.ChatBot("ChatDot")
+Bot.initialize()
 
 def recognize(recognizer, microphone):
     if not isinstance(recognizer, sr.Recognizer):
