@@ -1,5 +1,8 @@
+brew update
+
 brew install python@3.8
 brew install PyAudio
+brew install gcc
 
 python3.8 -m pip install speechrecognition
 python3.8 -m pip install chatterbot
