@@ -30,4 +30,4 @@ where each conversation is a new line seperated by "&&"
 
 # Features
 
-the program can be interacted with via speech. text compatibilty is being developed.
+the program can be interacted with via speech or text.
